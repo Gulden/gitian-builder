@@ -36,4 +36,5 @@ lxc.network.ipv4.gateway = auto
 
 lxc.autodev = 0
 
+lxc.network.ipv4.gateway=auto
 lxc.utsname = gitian
