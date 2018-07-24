@@ -10,7 +10,7 @@ if [ -z "$LXC_BRIDGE" ]; then
     LXC_BRIDGE=br0
 fi
 
-if [[ $(lxc --version) = 3.* ]]; then
+if [[ $(lxc-ls --version) = 3.* ]]; then
     LXC_CONFIG=etc/lxc.3.config.in
 else
     LXC_CONFIG=etc/lxc.config.in
